@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: sphinx_reredirects
+Version: 0.1.5
+Summary: Handles redirects for moved pages in Sphinx documentation projects
+Home-page: https://documatt.com/sphinx-reredirects/
+Author: Documatt.com
+Author-email: hello@documatt.com
+License: BSD3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Sphinx :: Extension
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Documentation
+Classifier: Topic :: Documentation :: Sphinx
+Classifier: Topic :: Utilities
+Requires-Python: >=3.5
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: sphinx >=7.1
+
+##################
+sphinx-reredirects
+##################
+
+.. image:: https://raw.githubusercontent.com/documatt/sphinx-reredirects/main/logo.png
+   :align: right
+
+.. image:: https://github.com/documatt/sphinx-reredirects/actions/workflows/tests.yml/badge.svg
+   :target: https://github.com/documatt/sphinx-reredirects/actions/workflows/tests.yml
+
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+   :target: https://github.com/psf/black
+
+.. image:: https://img.shields.io/pypi/v/sphinx-reredirects
+   :target: https://pypi.org/project/sphinx-reredirects/
+
+sphinx-reredirects is the extension for `Sphinx documentation <https://www.sphinx-doc.org/>`_ projects that handles redirects for moved pages. It generates HTML pages with meta refresh redirects to the new page location to prevent 404 errors if you rename or move your documents.
+
+* docs: https://documatt.com/sphinx-reredirects
+* code: https://github.com/documatt/sphinx-reredirects where issues and contributions are welcome
+
+Good URLs are never changing URLs. But if you must, sphinx-reredirects helps you manage redirects with ease and from the single place in project's ``conf.py``.  For example, if you rename document ``start`` to ``intro``, and tell it to sphinx-reredirects, it will generate HTML page ``start.html`` with ``<meta http-equiv="refresh" content="0; url=intro.html">``. The extension supports wildcards and moving to different domain too.
+
+*****
+About
+*****
+
+sphinx-reredirects started from the urge to manage redirects for all documents during moving our *Tech writer at work blog* to the new address at https://documatt.com/blog/.
+
+*****
+Legal
+*****
+
+sphinx-reredirects is licensed under BSD3.
+
+Forward Arrow icon by `Icons8 <https://icons8.com>`_.

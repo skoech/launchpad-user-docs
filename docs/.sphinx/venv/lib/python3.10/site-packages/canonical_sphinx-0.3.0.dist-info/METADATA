@@ -1,0 +1,148 @@
+Metadata-Version: 2.1
+Name: canonical-sphinx
+Version: 0.3.0
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: sphinx <8,>=7.1.2
+Requires-Dist: furo
+Requires-Dist: myst-parser
+Requires-Dist: linkify-it-py
+Provides-Extra: dev
+Requires-Dist: canonical-sphinx[full] ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: coverage[toml] ==7.6.1 ; extra == 'dev'
+Requires-Dist: pytest ==8.3.2 ; extra == 'dev'
+Requires-Dist: pytest-cov ==5.0.0 ; extra == 'dev'
+Requires-Dist: pytest-mock ==3.14.0 ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: canonical-sphinx[full] ; extra == 'docs'
+Requires-Dist: sphinx-lint ; extra == 'docs'
+Requires-Dist: sphinx-autobuild ; extra == 'docs'
+Provides-Extra: full
+Requires-Dist: canonical-sphinx-extensions ; extra == 'full'
+Requires-Dist: sphinx-copybutton ; extra == 'full'
+Requires-Dist: sphinx-design ; extra == 'full'
+Requires-Dist: sphinx-notfound-page ; extra == 'full'
+Requires-Dist: sphinx-reredirects ; extra == 'full'
+Requires-Dist: sphinx-tabs ; extra == 'full'
+Requires-Dist: sphinxcontrib-jquery ; extra == 'full'
+Requires-Dist: sphinxext-opengraph ; extra == 'full'
+Requires-Dist: pyspelling ; extra == 'full'
+Provides-Extra: lint
+Requires-Dist: canonical-sphinx[full] ; extra == 'lint'
+Requires-Dist: black ==24.8.0 ; extra == 'lint'
+Requires-Dist: codespell[toml] ==2.3.0 ; extra == 'lint'
+Requires-Dist: ruff ==0.6.2 ; extra == 'lint'
+Requires-Dist: yamllint ==1.35.1 ; extra == 'lint'
+Provides-Extra: types
+Requires-Dist: canonical-sphinx[full] ; extra == 'types'
+Requires-Dist: mypy[reports] ==1.11.2 ; extra == 'types'
+Requires-Dist: pyright ==1.1.378 ; extra == 'types'
+
+****************
+canonical-sphinx
+****************
+
+Extension and theme to create great Canonical-branded documentation.
+
+Description
+***********
+
+This project is a Sphinx extension that simplifies the installation of a group
+of Sphinx extensions recommended by Canonical. It also provides a design
+override of the Furo theme for the creation of Canonical branded documentation.
+
+This extension provides a minimal installation by default, and also offers a
+``[full]`` optional installation which provides significant additional
+functionality for Sphinx based documentation. This extension, when installed and
+added to ``extensions`` within the configuration file of a Sphinx deployment,
+"bundles" various extensions together and sets default configuration values,
+eliminating the need to list the extensions in the ``extensions`` section of the
+Sphinx configuration and reducing the need to configure the bundled extensions.
+
+The default extensions bundled into canonical-sphinx are:
+
+* `Furo <https://github.com/pradyunsg/furo>`_
+* `MyST Parser <https://myst-parser.readthedocs.io/en/latest/>`_
+* `linkify-it-py <https://pypi.org/project/linkify-it-py/>`_ - required for
+  specific MyST Parser functionality.
+
+The optional extensions bundled into canonical-sphinx using the ``[full]``
+optional installation are:
+
+* `canonical-sphinx-extensions`_
+* `sphinx-copybutton <https://github.com/executablebooks/sphinx-copybutton>`_
+* `sphinx-design <https://github.com/executablebooks/sphinx-design>`_
+* `sphinx-notfound-page <https://github.com/readthedocs/sphinx-notfound-page>`_
+* `sphinx-reredirects <https://github.com/documatt/sphinx-reredirects>`_
+* `sphinx-tabs <https://github.com/executablebooks/sphinx-tabs>`_
+* `sphinxcontrib-jquery <https://github.com/sphinx-contrib/jquery/>`_
+* `sphinxext-opengraph <https://github.com/wpilibsuite/sphinxext-opengraph>`_
+* `pyspelling <https://github.com/facelessuser/pyspelling>`_
+
+Using canonical-sphinx
+**********************
+
+To use canonical-sphinx in your project:
+
+1.  Install ``canonical-sphinx``. It is recommended to install
+``canonical-sphinx[full]``.
+
+    This can be done via pypi, or by using the package available in the
+    canonical-sphinx repository. It is recommended to use
+    ``canonical-sphinx[full]``.
+
+2.  Add ``canonical-sphinx`` to your
+    `Sphinx configuration file`_.
+
+    For example::
+
+
+        extensions = [
+            ...
+            "canonical_sphinx",
+        ]
+
+    **Do not add any of the bundled extensions to this configuration.** They
+    will be automatically added when Sphinx generates documentation.
+
+3.  (Optional) Add additional configuration to your
+`Sphinx configuration file`_
+if you need to overwrite any defaults configured by canonical-sphinx.
+
+Using a subset of packages
+==========================
+
+canonical-sphinx will identify and configure defaults for any package from the
+``[full]`` installation.
+
+For example, using the following ``requirements.txt`` file::
+
+    canonical-sphinx
+    sphinx-copybutton
+    sphinxcontrib-jquery
+
+With ``canonical-sphinx`` included in your project's
+``conf.py`` ``extensions``::
+
+    extensions = [
+        "canonical_sphinx",
+    ]
+
+Sphinx will configure and add defaults for ``sphinx-copybutton`` and
+``sphinxcontrib-jquery``. The rest of the extensions from the optional
+``[full]`` installation will be ignored.
+
+=======
+
+.. _EditorConfig: https://editorconfig.org/
+.. _pre-commit: https://pre-commit.com/
+.. _ReadTheDocs: https://docs.readthedocs.io/en/stable/intro/import-guide.html
+.. _use this template: https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
+.. _canonical-sphinx-extensions: https://github.com/canonical/canonical-sphinx-extensions
+.. _Sphinx configuration file: https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-extensions

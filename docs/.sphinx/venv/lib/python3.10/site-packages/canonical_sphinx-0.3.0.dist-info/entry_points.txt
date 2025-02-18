@@ -1,0 +1,5 @@
+[console_scripts]
+canonical-sphinx-hello = canonical_sphinx:hello
+
+[sphinx.html_themes]
+canonical_sphinx_theme = canonical_sphinx.theme
