@@ -11,33 +11,34 @@ These include build capacities for many different languages and package formats 
 Launchpad also offers unparalleled tracking capabilities across issue trackers to seamlessly communicate with upstream projects.
 
 With its unique features, Launchpad is the right tool for companies, professionals, open-source maintainers, and hobbyists alike.
-
-.. toctree::
-   :hidden:
-   :maxdepth: 2
-
-   Tutorials </tutorial/index>
-   How-to Guides </how-to/index>
-   Reference </reference/index>
-   Explanation </explanation/index>
-
 In this documentation
 ---------------------
 
 .. grid:: 1 1 2 2
 
-   .. grid-item:: :doc:`Tutorials </tutorial>`
+   .. grid-item:: :doc:`Tutorials <tutorial/index>`
 
       **Start here**: hands-on introductions to Launchpad for new users.
 
-   .. grid-item:: :doc:`How-to guides </how-to>`
+   .. grid-item:: :doc:`How-to guides <how-to/index>`
 
       **Step-by-step guides** guides covering key operations and common tasks.
 
-   .. grid-item:: :doc:`Explanation </explanation>`
+   .. grid-item:: :doc:`Explanation <explanation/index>`
 
       **Discussion and clarification** of key topics.
 
-   .. grid-item:: :doc:`Reference </reference>`
+   .. grid-item:: :doc:`Reference <reference/index>`
 
       **Technical information** - specifications, APIs, architecture.
+
+.. toctree::
+   :hidden:
+   :maxdepth: 2
+
+   Tutorials <tutorial/index>
+   How-to guides <how-to/index>
+   Reference <reference/index>
+   Explanation <explanation/index>
+
+
