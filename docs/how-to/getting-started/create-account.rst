@@ -1,11 +1,11 @@
 
+
 Create and personalise your Launchpad account
 =============================================
 
 To create a new Launchpad account, visit the `account sign-up <https://launchpad.net/+login>`_ page. All you need is an email address that Launchpad can use to contact you.
 
 A few things to note:
-
 
 * **Confirmation email:** If you don't receive a confirmation email from Launchpad it may have been incorrectly trapped by a spam filter. If you think this has happened, try registering using a `Gmail <http://mail.google.com/>`_ address. You can always change your registered email address later on. If that still doesn't work, `let us know <https://help.launchpad.net/Feedback>`_.  
 * **Display name:** Launchpad will ask you for a display name. This is the name people will see on your profile page and next to work that you do. Many people choose to use their real name or a widely recognised pseudonym here.  
