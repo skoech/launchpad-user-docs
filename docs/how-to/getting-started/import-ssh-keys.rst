@@ -58,7 +58,8 @@ Windows (PuTTY)
 
 This way you get key for the next step ("Registering the key with Launchpad").
 
-*Note: Step 5 helps avoid the "Invalid public key" error. (Taken from launchpad `question 26705 <https://answers.launchpad.net/launchpad/+question/26705>`_\ )*
+.. note::
+    Step 5 helps avoid the "Invalid public key" error. (Taken from launchpad `question 26705 <https://answers.launchpad.net/launchpad/+question/26705>`_\ )
 
 **Step 6:** Run/Install `Pageant <http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html>`_ as either a standalone .exe or as part of the entire putty package. Make sure Pageant is running and rt+click the icon in the notification area. Add the private key you saved earlier. This step is crucial if you want to connect to launchpad from a Windows PC.
 
