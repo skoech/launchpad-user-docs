@@ -1,4 +1,4 @@
-# Overview
+# Log into websites with OpenID
 
 [OpenID](http://openid.net) is a way to log into many websites using just one username and password. However, rather than entering that username and password at each website, you use a website you trust \-- such as [Launchpad](https://launchpad.net) \-- to confirm your identity to the other sites.
 

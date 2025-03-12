@@ -1,4 +1,4 @@
-# Create an account
+# Create and personalise your Launchpad account
 
 To create a new Launchpad account, visit the [account sign-up](https://launchpad.net/+login) page. All you need is an email address that Launchpad can use to contact you.
 
@@ -10,7 +10,7 @@ A few things to note:
 
 Once you've created your account, it's time to tell other Launchpad users a bit about yourself.
 
-## **Personalising your profile**
+## Personalise your profile
 
 When you first create your account, your profile looks pretty bare. You can add information about yourself straight away. Once you start to use Launchpad, your profile will also automatically tell people about the sort of work you do in Launchpad.
 
@@ -28,7 +28,7 @@ You can personalise your profile in a few different ways:
 
 One of the easiest ways to stamp your mark on Launchpad is to [upload a profile picture](https://launchpad.net/~/+edit). It should be 192x192 and no more than 100 KB.
 
-### **Your Launchpad name**
+### Your Launchpad name
 
 You've already chosen your display name \- i.e. the name other people will see next to work you do \- but Launchpad has also automatically generated a system username for you.
 
@@ -38,7 +38,7 @@ Launchpad refers to this as your name and it's mostly used in URLs. If you're an
 
 If you're unhappy with your automatically generated Launchpad name, now's a good time to [change it](https://launchpad.net/~/+edit). Changing it once you've started using Launchpad in full may be awkward as it will also change the URLs of some of your work.
 
-## **Next step**
+## Next step
 
 Launchpad trusts that you are who you claim to be. Later, such as when you're using the bug tracker's email interface, you'll need to use an electronic signature to prove your identity.
 

@@ -16,7 +16,7 @@ If you're not sure what the account's name is, click Choose... to search.
 
 **Step 3:** Launchpad will send an email to the primary email address registered in the duplicate account. Following the link in the email to confirm the merger.
 
-## **You can't access the duplicate account's email address**
+## You can't access the duplicate account's email address
 
 If you no longer have access to the primary email account registered in the duplicate account, obviously you won't be able to follow the link in any email that Launchpad sends to it.
 

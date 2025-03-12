@@ -1,4 +1,4 @@
-# Overview
+# Contact other Launchpad users
 
 Launchpad is a social website: it's all about collaboration. That's why your profile page includes details of how to contact you, along with an option to contact you using a web form.
 

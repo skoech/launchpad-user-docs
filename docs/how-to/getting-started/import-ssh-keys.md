@@ -1,10 +1,12 @@
-# Why you need an SSH key
+# Import your SSH keys
+
+To push code branches to Launchpad you first need to generate your SSH key. The key is made up of two parts: a private key that stays on your computer and a public key that you register with Launchpad. As you might expect, you shouldn't share the private key with anyone.
+
+## Why you need an SSH key
 
 The trust that other people put in your Launchpad identity is no more important than when they use code that you've uploaded to Launchpad.
 
 An SSH key secures the connection between your computer and Launchpad while you're pushing Bazaar branches up to Launchpad.
-
-To push code branches to Launchpad you first need to generate your SSH key. The key is made up of two parts: a private key that stays on your computer and a public key that you register with Launchpad. As you might expect, you shouldn't share the private key with anyone.
 
 ## Creating the key
 
