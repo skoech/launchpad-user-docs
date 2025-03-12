@@ -5,10 +5,8 @@ Merging accounts
 If you find that you have more than one Launchpad account, in most cases you can easily merge them together. How easy it is depends on whether you still have access to the primary email address registered in the duplicate account.
 
 
-.. image:: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAzklEQVQ4T61TQRKEIAxrn6VHvgVH/Bo+i6XVsrGAh5314ChtQkoCk3tyztWv2X9KiX2tLxgwxrjCE3Nvf34I2AO/vUQVNJ3nSfu+yyZKoq8ZwXEclNKlBgkU1NgbptUT8wy8nOEuoIopAe4+U4AqlgreRvg/QQiBtm17jP6mwM5ADnLqAlporOYEgmVjTFYtpQxKUBaCZV1tdJZpZDwR2Kb+G7gHCUkauN5J60QWHOkT2a0+ZnoRntqeR/J833C7JkQ6lkX3FwK9Kzg3knwAV4+JjvZiZxkAAAAASUVORK5CYII=
-   :target: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAzklEQVQ4T61TQRKEIAxrn6VHvgVH/Bo+i6XVsrGAh5314ChtQkoCk3tyztWv2X9KiX2tLxgwxrjCE3Nvf34I2AO/vUQVNJ3nSfu+yyZKoq8ZwXEclNKlBgkU1NgbptUT8wy8nOEuoIopAe4+U4AqlgreRvg/QQiBtm17jP6mwM5ADnLqAlporOYEgmVjTFYtpQxKUBaCZV1tdJZpZDwR2Kb+G7gHCUkauN5J60QWHOkT2a0+ZnoRntqeR/J833C7JkQ6lkX3FwK9Kzg3knwAV4+JjvZiZxkAAAAASUVORK5CYII=
-   :alt: {i}
- **Note:** When you merge two accounts, the primary account's personalisation (home page, branding, display name, etc) will remain in place. However, all the work and team memberships associated with the second account will merge with the primary account.
+.. note::
+   When you merge two accounts, the primary account's personalisation (home page, branding, display name, etc) will remain in place. However, all the work and team memberships associated with the second account will merge with the primary account.
 
 **Step 1:** Log into your primary Launchpad account and visit the `account merger page <https://launchpad.net/people/+requestmerge>`_.
 

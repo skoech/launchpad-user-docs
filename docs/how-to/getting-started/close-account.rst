@@ -5,10 +5,8 @@ Close your account
 If you no longer want or need your Launchpad account, you can deactivate it.
 
 
-.. image:: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAzklEQVQ4T61TQRKEIAxrn6VHvgVH/Bo+i6XVsrGAh5314ChtQkoCk3tyztWv2X9KiX2tLxgwxrjCE3Nvf34I2AO/vUQVNJ3nSfu+yyZKoq8ZwXEclNKlBgkU1NgbptUT8wy8nOEuoIopAe4+U4AqlgreRvg/QQiBtm17jP6mwM5ADnLqAlporOYEgmVjTFYtpQxKUBaCZV1tdJZpZDwR2Kb+G7gHCUkauN5J60QWHOkT2a0+ZnoRntqeR/J833C7JkQ6lkX3FwK9Kzg3knwAV4+JjvZiZxkAAAAASUVORK5CYII=
-   :target: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAzklEQVQ4T61TQRKEIAxrn6VHvgVH/Bo+i6XVsrGAh5314ChtQkoCk3tyztWv2X9KiX2tLxgwxrjCE3Nvf34I2AO/vUQVNJ3nSfu+yyZKoq8ZwXEclNKlBgkU1NgbptUT8wy8nOEuoIopAe4+U4AqlgreRvg/QQiBtm17jP6mwM5ADnLqAlporOYEgmVjTFYtpQxKUBaCZV1tdJZpZDwR2Kb+G7gHCUkauN5J60QWHOkT2a0+ZnoRntqeR/J833C7JkQ6lkX3FwK9Kzg3knwAV4+JjvZiZxkAAAAASUVORK5CYII=
-   :alt: {i}
- **Warning:** Deactivating your account will remove your Launchpad profile and permanently delete all of your:
+.. warning::
+  Deactivating your account will remove your Launchpad profile and permanently delete all of your:
 
 
 * bug and blueprint subscriptions - assignments will be set to "none"  
@@ -51,7 +49,5 @@ Recovering your account
 If you later decide that you want to start using Launchpad again, you can recover your account by logging into Launchpad again using the same email address. (If you also deleted your account on the login service after deactivating your Launchpad account, then you will need to `create a new account <https://help.launchpad.net/CreatingYourLaunchpadAccount>`_ using one of the email addresses from your deactivated account, at which point you will get an error ID due to the account conflict; send an email to feedback@launchpad.net explaining the situation and including the error ID, and we can restore your old account for you.)
 
 
-.. image:: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAzklEQVQ4T61TQRKEIAxrn6VHvgVH/Bo+i6XVsrGAh5314ChtQkoCk3tyztWv2X9KiX2tLxgwxrjCE3Nvf34I2AO/vUQVNJ3nSfu+yyZKoq8ZwXEclNKlBgkU1NgbptUT8wy8nOEuoIopAe4+U4AqlgreRvg/QQiBtm17jP6mwM5ADnLqAlporOYEgmVjTFYtpQxKUBaCZV1tdJZpZDwR2Kb+G7gHCUkauN5J60QWHOkT2a0+ZnoRntqeR/J833C7JkQ6lkX3FwK9Kzg3knwAV4+JjvZiZxkAAAAASUVORK5CYII=
-   :target: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAzklEQVQ4T61TQRKEIAxrn6VHvgVH/Bo+i6XVsrGAh5314ChtQkoCk3tyztWv2X9KiX2tLxgwxrjCE3Nvf34I2AO/vUQVNJ3nSfu+yyZKoq8ZwXEclNKlBgkU1NgbptUT8wy8nOEuoIopAe4+U4AqlgreRvg/QQiBtm17jP6mwM5ADnLqAlporOYEgmVjTFYtpQxKUBaCZV1tdJZpZDwR2Kb+G7gHCUkauN5J60QWHOkT2a0+ZnoRntqeR/J833C7JkQ6lkX3FwK9Kzg3knwAV4+JjvZiZxkAAAAASUVORK5CYII=
-   :alt: {i}
- **Note:** Recovering an account will not restore any information that was deleted when you deactivated it.
+.. note::
+  Recovering an account will not restore any information that was deleted when you deactivated it.

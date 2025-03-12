@@ -64,20 +64,16 @@ OpenPGP uses two types of digital keys: one public, one private. Each time you s
 **Step 6:** Check the email account that Launchpad has sent the confirmation email to. If your email client supports OpenPGP encryption, it will prompt you for the password you chose for the key when GPG generated it. Enter the password, then click the link to confirm that the key is yours.
 
 
-.. image:: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAzklEQVQ4T61TQRKEIAxrn6VHvgVH/Bo+i6XVsrGAh5314ChtQkoCk3tyztWv2X9KiX2tLxgwxrjCE3Nvf34I2AO/vUQVNJ3nSfu+yyZKoq8ZwXEclNKlBgkU1NgbptUT8wy8nOEuoIopAe4+U4AqlgreRvg/QQiBtm17jP6mwM5ADnLqAlporOYEgmVjTFYtpQxKUBaCZV1tdJZpZDwR2Kb+G7gHCUkauN5J60QWHOkT2a0+ZnoRntqeR/J833C7JkQ6lkX3FwK9Kzg3knwAV4+JjvZiZxkAAAAASUVORK5CYII=
-   :target: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAzklEQVQ4T61TQRKEIAxrn6VHvgVH/Bo+i6XVsrGAh5314ChtQkoCk3tyztWv2X9KiX2tLxgwxrjCE3Nvf34I2AO/vUQVNJ3nSfu+yyZKoq8ZwXEclNKlBgkU1NgbptUT8wy8nOEuoIopAe4+U4AqlgreRvg/QQiBtm17jP6mwM5ADnLqAlporOYEgmVjTFYtpQxKUBaCZV1tdJZpZDwR2Kb+G7gHCUkauN5J60QWHOkT2a0+ZnoRntqeR/J833C7JkQ6lkX3FwK9Kzg3knwAV4+JjvZiZxkAAAAASUVORK5CYII=
-   :alt: {i}
- **Quick tip:** Launchpad encrypts the email, using your public key, so that it can be sure that the key is yours. If your email software doesn't support OpenPGP encryption (for Thunderbird, try the Enigmail extension), copy the encrypted email's contents, type gpg in your terminal, then paste the email contents into your terminal window, followed by ctrl-D (an `EOF <http://en.wikipedia.org/wiki/End-of-file>`_ character).
+.. tip::
+   Launchpad encrypts the email, using your public key, so that it can be sure that the key is yours. If your email software doesn't support OpenPGP encryption (for Thunderbird, try the Enigmail extension), copy the encrypted email's contents, type gpg in your terminal, then paste the email contents into your terminal window, followed by ctrl-D (an `EOF <http://en.wikipedia.org/wiki/End-of-file>`_ character).
 
 **Step 7:** Back on the Launchpad website, use the Confirm button and Launchpad will complete the import of your OpenPGP key.
 
 Launchpad will confirm that it has imported your key.
 
 
-.. image:: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAzklEQVQ4T61TQRKEIAxrn6VHvgVH/Bo+i6XVsrGAh5314ChtQkoCk3tyztWv2X9KiX2tLxgwxrjCE3Nvf34I2AO/vUQVNJ3nSfu+yyZKoq8ZwXEclNKlBgkU1NgbptUT8wy8nOEuoIopAe4+U4AqlgreRvg/QQiBtm17jP6mwM5ADnLqAlporOYEgmVjTFYtpQxKUBaCZV1tdJZpZDwR2Kb+G7gHCUkauN5J60QWHOkT2a0+ZnoRntqeR/J833C7JkQ6lkX3FwK9Kzg3knwAV4+JjvZiZxkAAAAASUVORK5CYII=
-   :target: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAzklEQVQ4T61TQRKEIAxrn6VHvgVH/Bo+i6XVsrGAh5314ChtQkoCk3tyztWv2X9KiX2tLxgwxrjCE3Nvf34I2AO/vUQVNJ3nSfu+yyZKoq8ZwXEclNKlBgkU1NgbptUT8wy8nOEuoIopAe4+U4AqlgreRvg/QQiBtm17jP6mwM5ADnLqAlporOYEgmVjTFYtpQxKUBaCZV1tdJZpZDwR2Kb+G7gHCUkauN5J60QWHOkT2a0+ZnoRntqeR/J833C7JkQ6lkX3FwK9Kzg3knwAV4+JjvZiZxkAAAAASUVORK5CYII=
-   :alt: {i}
- **Note:** If you created the key id using an email address not registered in your Launchpad account, use the Confirm Them button to use it with Launchpad.
+.. note::
+   If you created the key id using an email address not registered in your Launchpad account, use the Confirm Them button to use it with Launchpad.
 
 You can now sign the Ubuntu Code of Conduct and use the Bug Tracker's email interface.
 
@@ -102,10 +98,8 @@ OpenPGP uses two types of digital keys: one public, one private. Each time you s
 You can create and manage OpenPGP keys using the GPG tool. If you're running Ubuntu, and most other Linux-based operating systems, GPG is ready to use.
 
 
-.. image:: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAzklEQVQ4T61TQRKEIAxrn6VHvgVH/Bo+i6XVsrGAh5314ChtQkoCk3tyztWv2X9KiX2tLxgwxrjCE3Nvf34I2AO/vUQVNJ3nSfu+yyZKoq8ZwXEclNKlBgkU1NgbptUT8wy8nOEuoIopAe4+U4AqlgreRvg/QQiBtm17jP6mwM5ADnLqAlporOYEgmVjTFYtpQxKUBaCZV1tdJZpZDwR2Kb+G7gHCUkauN5J60QWHOkT2a0+ZnoRntqeR/J833C7JkQ6lkX3FwK9Kzg3knwAV4+JjvZiZxkAAAAASUVORK5CYII=
-   :target: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAzklEQVQ4T61TQRKEIAxrn6VHvgVH/Bo+i6XVsrGAh5314ChtQkoCk3tyztWv2X9KiX2tLxgwxrjCE3Nvf34I2AO/vUQVNJ3nSfu+yyZKoq8ZwXEclNKlBgkU1NgbptUT8wy8nOEuoIopAe4+U4AqlgreRvg/QQiBtm17jP6mwM5ADnLqAlporOYEgmVjTFYtpQxKUBaCZV1tdJZpZDwR2Kb+G7gHCUkauN5J60QWHOkT2a0+ZnoRntqeR/J833C7JkQ6lkX3FwK9Kzg3knwAV4+JjvZiZxkAAAAASUVORK5CYII=
-   :alt: {i}
- **Note:** If you're using any operating system that doesn't come with GPG, see the `GPG download page <http://gnupg.org/download/index.en.html>`_. You may also prefer to follow the `GPG manual <http://www.gnupg.org/gph/en/manual.html#AEN26>`_.
+.. note::
+   If you're using any operating system that doesn't come with GPG, see the `GPG download page <http://gnupg.org/download/index.en.html>`_. You may also prefer to follow the `GPG manual <http://www.gnupg.org/gph/en/manual.html#AEN26>`_.
 
 Creating your OpenPGP keys with gpg
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -142,10 +136,8 @@ If you're happy with the id, press the letter O (for *Okay*\ ), then Enter.
 **Step 9:** You must protect your key with a password. Enter, then confirm, a password that other people can't easily guess but that is memorable to you.
 
 
-.. image:: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAzklEQVQ4T61TQRKEIAxrn6VHvgVH/Bo+i6XVsrGAh5314ChtQkoCk3tyztWv2X9KiX2tLxgwxrjCE3Nvf34I2AO/vUQVNJ3nSfu+yyZKoq8ZwXEclNKlBgkU1NgbptUT8wy8nOEuoIopAe4+U4AqlgreRvg/QQiBtm17jP6mwM5ADnLqAlporOYEgmVjTFYtpQxKUBaCZV1tdJZpZDwR2Kb+G7gHCUkauN5J60QWHOkT2a0+ZnoRntqeR/J833C7JkQ6lkX3FwK9Kzg3knwAV4+JjvZiZxkAAAAASUVORK5CYII=
-   :target: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAzklEQVQ4T61TQRKEIAxrn6VHvgVH/Bo+i6XVsrGAh5314ChtQkoCk3tyztWv2X9KiX2tLxgwxrjCE3Nvf34I2AO/vUQVNJ3nSfu+yyZKoq8ZwXEclNKlBgkU1NgbptUT8wy8nOEuoIopAe4+U4AqlgreRvg/QQiBtm17jP6mwM5ADnLqAlporOYEgmVjTFYtpQxKUBaCZV1tdJZpZDwR2Kb+G7gHCUkauN5J60QWHOkT2a0+ZnoRntqeR/J833C7JkQ6lkX3FwK9Kzg3knwAV4+JjvZiZxkAAAAASUVORK5CYII=
-   :alt: {i}
- **Important:** If you forget this password there is no way to retrieve it and your key will become useless.
+.. important::
+   If you forget this password there is no way to retrieve it and your key will become useless.
 
 **Step 10:** GPG will now generate your keys. To increase the strength of your keys, you should type randomly on your keyboard. This gives GPG extra data from which to generate your keys.
 
@@ -206,20 +198,16 @@ Highlight and copy only the numeric fingerprint: `0464 39CD 2486 190A 2C5A 0739 
 **Step 4:** Check the email account that Launchpad has sent the confirmation email to. If your email client supports OpenPGP encryption, it will prompt you for the password you chose for the key when GPG generated it. Enter the password, then click the link to confirm that the key is yours.
 
 
-.. image:: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAzklEQVQ4T61TQRKEIAxrn6VHvgVH/Bo+i6XVsrGAh5314ChtQkoCk3tyztWv2X9KiX2tLxgwxrjCE3Nvf34I2AO/vUQVNJ3nSfu+yyZKoq8ZwXEclNKlBgkU1NgbptUT8wy8nOEuoIopAe4+U4AqlgreRvg/QQiBtm17jP6mwM5ADnLqAlporOYEgmVjTFYtpQxKUBaCZV1tdJZpZDwR2Kb+G7gHCUkauN5J60QWHOkT2a0+ZnoRntqeR/J833C7JkQ6lkX3FwK9Kzg3knwAV4+JjvZiZxkAAAAASUVORK5CYII=
-   :target: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAzklEQVQ4T61TQRKEIAxrn6VHvgVH/Bo+i6XVsrGAh5314ChtQkoCk3tyztWv2X9KiX2tLxgwxrjCE3Nvf34I2AO/vUQVNJ3nSfu+yyZKoq8ZwXEclNKlBgkU1NgbptUT8wy8nOEuoIopAe4+U4AqlgreRvg/QQiBtm17jP6mwM5ADnLqAlporOYEgmVjTFYtpQxKUBaCZV1tdJZpZDwR2Kb+G7gHCUkauN5J60QWHOkT2a0+ZnoRntqeR/J833C7JkQ6lkX3FwK9Kzg3knwAV4+JjvZiZxkAAAAASUVORK5CYII=
-   :alt: {i}
- **Quick tip:** Launchpad encrypts the email, using your public key, so that it can be sure that the key is yours. If your email software doesn't support OpenPGP encryption, copy the encrypted email's contents, type gpg in your terminal, then paste the email contents into your terminal window.
+.. tip::
+   Launchpad encrypts the email, using your public key, so that it can be sure that the key is yours. If your email software doesn't support OpenPGP encryption, copy the encrypted email's contents, type gpg in your terminal, then paste the email contents into your terminal window.
 
 **Step 6:** Back on the Launchpad website, click the Confirm button and Launchpad will complete the import of your OpenPGP key.
 
 Launchpad will confirm that it has imported your key.
 
 
-.. image:: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAzklEQVQ4T61TQRKEIAxrn6VHvgVH/Bo+i6XVsrGAh5314ChtQkoCk3tyztWv2X9KiX2tLxgwxrjCE3Nvf34I2AO/vUQVNJ3nSfu+yyZKoq8ZwXEclNKlBgkU1NgbptUT8wy8nOEuoIopAe4+U4AqlgreRvg/QQiBtm17jP6mwM5ADnLqAlporOYEgmVjTFYtpQxKUBaCZV1tdJZpZDwR2Kb+G7gHCUkauN5J60QWHOkT2a0+ZnoRntqeR/J833C7JkQ6lkX3FwK9Kzg3knwAV4+JjvZiZxkAAAAASUVORK5CYII=
-   :target: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAzklEQVQ4T61TQRKEIAxrn6VHvgVH/Bo+i6XVsrGAh5314ChtQkoCk3tyztWv2X9KiX2tLxgwxrjCE3Nvf34I2AO/vUQVNJ3nSfu+yyZKoq8ZwXEclNKlBgkU1NgbptUT8wy8nOEuoIopAe4+U4AqlgreRvg/QQiBtm17jP6mwM5ADnLqAlporOYEgmVjTFYtpQxKUBaCZV1tdJZpZDwR2Kb+G7gHCUkauN5J60QWHOkT2a0+ZnoRntqeR/J833C7JkQ6lkX3FwK9Kzg3knwAV4+JjvZiZxkAAAAASUVORK5CYII=
-   :alt: {i}
- **Note:** If you created the key id using an email address not registered in your Launchpad account, click confirm them to use it with Launchpad.
+.. note::
+   If you created the key id using an email address not registered in your Launchpad account, click confirm them to use it with Launchpad.
 
 You can now sign the Ubuntu Code of Conduct and use the Bug Tracker's email interface.
 
