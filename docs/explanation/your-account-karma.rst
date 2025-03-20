@@ -1,6 +1,6 @@
 
-Build your karma
-================
+Your account karma
+==================
 
 Karma is one way of showing how large a contribution someone has made in Launchpad.
 
