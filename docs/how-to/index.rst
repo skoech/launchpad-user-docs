@@ -9,7 +9,6 @@ How-to guides
    Import an OpenGPG key <import-opengpg-key>
    Import your SSH keys <import-ssh-keys>
    Merge two or more accounts <merge-accounts>
-   Build your karma <build-karma>
    Close your account <close-account>
    Work with launchpadlib <launchpadlib/index>
    Log into websites with OpenID <using-openid>
