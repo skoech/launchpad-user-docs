@@ -9,7 +9,7 @@ This table shows you what level of interoperability Launchpad has with which ext
 .. list-table:: 
    :header-rows: 1
 
-   * - Heading row 1, column 1
+   * - Function
      - `Bugzilla <http://www.bugzilla.org/>`_
      - `Roundup <http://roundup.sourceforge.net/>`_
      - `Debbugs <http://www.debian.org/Bugs/>`_
