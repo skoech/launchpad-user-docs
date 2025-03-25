@@ -6,10 +6,10 @@ You can link bug reports in Launchpad to reports in tracked elsewhere.
 
 This table shows you what level of interoperability Launchpad has with which external tracker.
 
-.. list-table::
+.. list-table:: 
    :header-rows: 1
 
-   * - Function
+   * - Heading row 1, column 1
      - `Bugzilla <http://www.bugzilla.org/>`_
      - `Roundup <http://roundup.sourceforge.net/>`_
      - `Debbugs <http://www.debian.org/Bugs/>`_
@@ -24,6 +24,15 @@ This table shows you what level of interoperability Launchpad has with which ext
    * - Plugin for two-way comms
      - `Yes <https://help.launchpad.net/Bugs/BugzillaPlugin>`_
      - `Yes <https://help.launchpad.net/Bugs/TracPlugin>`_
+     -
+     -
+     -
+     -
+     -
+     -
+     -
+     -
+     -
    * - Add bug watch
      - Yes
      - Yes
@@ -45,7 +54,7 @@ This table shows you what level of interoperability Launchpad has with which ext
      - Yes
      - Yes
      - Yes
-     - 
+     -  
      - Yes
      - Yes
    * - Comment importing
@@ -54,24 +63,49 @@ This table shows you what level of interoperability Launchpad has with which ext
      - Yes
      - `Plugin <https://help.launchpad.net/Bugs/TracPlugin>`_
      - WS
+     -
+     -
+     -
+     -
+     -
+     -
    * - Comment pushing
      - `Plugin <https://help.launchpad.net/Bugs/BugzillaPlugin>`_
      - WN
      - NI
      - `Plugin <https://help.launchpad.net/Bugs/TracPlugin>`_
-     - WS     - 
+     - WS
+     -
+     -
+     -
+     -
+     -
+     -
    * - Bug importing
-     - NI - `plugin <https://help.launchpad.net/Bugs/BugzillaPlugin>`_
+     - NI `plugin <https://help.launchpad.net/Bugs/BugzillaPlugin>`_
      - WN
      - Yes
-     - NI - `plugin <https://help.launchpad.net/Bugs/TracPlugin>`_
+     - NI `plugin <https://help.launchpad.net/Bugs/TracPlugin>`_
      - WS
+     -
+     -
+     -
+     -
+     -
+     -
    * - Bug forwarding
-     - NI - `plugin <https://help.launchpad.net/Bugs/BugzillaPlugin>`_
+     - NI `plugin <https://help.launchpad.net/Bugs/BugzillaPlugin>`_
      - WN
      - NI
-     - NI - `plugin <https://help.launchpad.net/Bugs/TracPlugin>`_
+     - NI `plugin <https://help.launchpad.net/Bugs/TracPlugin>`_
      - WS
+     -
+     -
+     -
+     -
+     -
+     -
+
 
 Key
 ---
