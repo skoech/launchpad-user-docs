@@ -10,3 +10,4 @@ Reference
      Bug heat <bug-heat>
      Bug subscription <bug-subscription>
      Roles <roles/index>
+     Multi-project bugs <multi-project-bugs/index>
