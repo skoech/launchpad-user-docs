@@ -11,6 +11,7 @@ These include build capacities for many different languages and package formats 
 Launchpad also offers unparalleled tracking capabilities across issue trackers to seamlessly communicate with upstream projects.
 
 With its unique features, Launchpad is the right tool for companies, professionals, open-source maintainers, and hobbyists alike.
+
 In this documentation
 ---------------------
 
