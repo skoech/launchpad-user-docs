@@ -7,6 +7,7 @@ How-to guides
    
    Import an OpenGPG key <import-opengpg-key>
    Import your SSH keys <import-ssh-keys>
-   Work with launchpadlib <launchpadlib/index>
    Log into websites with OpenID <using-openid>
+   Manage your account <account-management/index>
+   Work with launchpadlib <launchpadlib/index>
    Translate your software <software-translations/index>
