@@ -18,3 +18,5 @@ Reference
    Loggerhead <loggerhead>
    Teams <teams/index>
    Translations <translations/index>
+   Packaging <packaging/index>
+   Question life cycle <question-life-cycle.rst>
