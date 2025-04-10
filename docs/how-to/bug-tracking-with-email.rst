@@ -2,11 +2,8 @@
 Track issues with email
 #######################
 
-Launchpad's bug tracker sends you `email <Bugs/Subscriptions>`__ about
-the bugs you're interested in. If you see something that requires your
-attention - for example, you want to comment on a bug - rather than
-leaving your email client to fire up a web browser, all you need to do
-is reply to the email.
+
+Launchpad's bug tracker sends you `email <Bugs/Subscriptions>`__ about the bugs you're interested in. If you see something that requires your attention - for example, you want to comment on a bug - rather than leaving your email client to fire up a web browser, all you need to do is reply to the email.
 
 It's not just limited to replying to bug notifications, though. The bug
 tracker's email interface allows you to do just about everything you can
