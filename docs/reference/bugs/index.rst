@@ -9,5 +9,7 @@ Reference
      Bug expiry <bug-expiry>
      Bug heat <bug-heat>
      Bug subscription <bug-subscription>
-     Roles <roles/index>
      Multi-project bugs <multi-project-bugs/index>
+     Roles <roles/index>
+     Turning a bug into a question <bug-to-question>
+     
