@@ -5,18 +5,22 @@ Reference
    :hidden:
    :maxdepth: 2
 
-   Table of applications using the API <api-uses>
    Bugs <bugs/index>
    Bug tracker API <bug-tracker-api/index>
-   Support in your native language <native-language-support>
-   Privacy and confidentiality <privacy-and-confidentiality>
-   Roles in code review <code-review-roles>
    Commenting syntax <comment-syntax>
    Consumer hosting <consumer-hosting>
    Glossary <glossary>
+   Launchpad and community <launchpad-and-community/index>
    Live-file-systems <live-file-systems>
    Loggerhead <loggerhead>
+   Packaging <packaging/index>
+   Privacy and confidentiality <privacy-and-confidentiality>
+   Project groups <project-groups>
+   Roles in code review <code-review-roles>
+   SSH fingerprints <ssh-fingerprints>
+   Support in your native language <native-language-support>
+   Table of applications using the API <api-uses>
    Teams <teams/index>
    Translations <translations/index>
-   Packaging <packaging/index>
-   Question life cycle <question-life-cycle.rst>
+   Question life cycle <question-life-cycle>
+   User preferences <settings-and-preferences>
