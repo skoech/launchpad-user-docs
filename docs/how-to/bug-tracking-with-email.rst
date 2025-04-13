@@ -2,54 +2,6 @@
 Track issues with email
 #######################
 
-Launchpad's bug tracker sends you `email <Bugs/Subscriptions>`__ about
-the bugs you're interested in. If you see something that requires your
-attention - for example, you want to comment on a bug - rather than
-leaving your email client to fire up a web browser, all you need to do
-is reply to the email.
-
-It's not just limited to replying to bug notifications, though. The bug
-tracker's email interface allows you to do just about everything you can
-in the web interface. Within time, you may find that email is the main
-way you interact with the bug tracker.
-
-Before you start
-================
-
-Launchpad verifies incoming email by looking for a GNU Privacy Guard
-(GPG) signature by the sender, or a DKIM signature by a trusted sender
-domain, such as GMail. Read our `guide on adding your GPG
-key <YourAccount/ImportingYourPGPKey>`__ to your Launchpad account.
-
-Messages that just add comments to a bug or merge proposal are not
-required to be signed. Messages that contain commands to change the
-state of an object do need to be signed.
-
-Anatomy of an email to the bug tracker
-======================================
-
-Let's look at the elements of a bug report email:
-
--  **From address:** the address from which you send the email must be
-   `registered in your Launchpad
-   account <https://launchpad.net/people/+me/+editemails>`__.
--  **To address:** new@bugs.launchpad.net for new bugs;
-   \```bugnumber@bugs.launchpad.net``\` to manipulate an existing bug
-   report; \```edit@bugs.launchpad.net``\` for bulk edits.
--  **Subject:** Launchpad uses this as the bug report or comment
-   summary.
--  **Email body:** the text of your email forms the bug report or
-   comment detail. This is also where you can supply commands to
-   manipulate the bug.
-
-That last item, the email body, needs a little more explanation. When
-you want to use one of the email interface's commands, **you need to
-start the line with a space**. Otherwise, Launchpad will treat your
-command as a comment only and not as a command.
-
-**Note:** all commands are also posted as a comment to the bug. This is
-something we plan to fix.
-
 Getting started with the email interface
 ========================================
 
@@ -63,11 +15,8 @@ Reporting a bug
 Reporting a new bug by email is simple. Send an email to
 new@bugs.launchpad.net and describe the problem you're having. Tell
 Launchpad which project, distribution or distribution package the bug
-affects by using the \```affects``\` command.
+affects by using the ``affects`` command.
 
-\||<tablestyle="width: 100%;" colspan=3 style="background: #2a2929;
-font-weight: bold; color: #f6bc05;">Important:|\|\ *Affects* must be the
-first command you give in the email when reporting a new bug.|\|
 
 Here's an example bug report email:
 
@@ -85,8 +34,8 @@ Here's an example bug report email:
     affects launchpad-documentation
 
 If the bug affects a distribution package, state the distribution name
-followed by a slash and the package name. For example: \```affects
-ubuntu/firefox".
+followed by a slash and the package name. For example: ``affects
+ubuntu/firefox``.
 
 Similarly, if the bug affects more than one project or package, use a
 new line for each project/package:
@@ -102,11 +51,11 @@ Commenting on and changing the status of a bug
 
 If you've received a notification about a bug and you want to leave a
 comment, simply reply to the email. Otherwise, to comment on a bug, send
-your email to \```bugnumber@bugs.launchpad.net```. For example:
-\```123@bugs.launchpad.net```.
+your email to ``bugnumber@bugs.launchpad.net``. For example:
+``123@bugs.launchpad.net``.
 
 Here's an example bug comment email, with a command to change its status
-to \```Confirmed```:
+to ``Confirmed``:
 
 ::
 
@@ -124,7 +73,7 @@ to \```Confirmed```:
     status confirmed
 
 Joey has also marked the bug as affecting Launchpad itself, using its
-project name \```launchpad```.
+project name ``launchpad``.
 
 Assigning and targeting the bug
 -------------------------------
@@ -148,18 +97,16 @@ it to himself and targets it to a future milestone:
     assignee matthew.revell
     milestone 1.2.9
 
-Note that Matthew used the \```affects``\` command. Earlier, Joey marked
-the bug as also affecting another project. Here, \```affects``\` lets
+Note that Matthew used the ``affects`` command. Earlier, Joey marked
+the bug as also affecting another project. Here, ``affects`` lets
 Matthew ensure the assignee and milestone are applied to the bug as it
 affects the Launchpad Documentation project. To use *affects* in this
 way you must place it before the other commands.
 
-Matthew could just as easily have left out the \```affects``\` command
+Matthew could just as easily have left out the ``affects`` command
 and Launchpad would have selected the most likely project that bug is
 reported against. See the `affects command
 reference <Bugs/EmailInterface#affects>`__ for details.
-
-<<Anchor(attachments)>>
 
 Attaching files to bugs
 -----------------------
@@ -208,13 +155,13 @@ When a bug affects only one package or product, the \`affects\` command
 is unnecessary.
 
 What to expect when you submit an email
-=======================================
+---------------------------------------
 
 Launchpad processes incoming bug mail every three minutes, so a slight
 delay between sending a mail and receiving a response is normal.
 
 On success
-----------
+~~~~~~~~~~
 
 If Launchpad processed your email successfully, it will reply by email
 to confirm the changes. This email is identical to the bug notification
@@ -245,7 +192,7 @@ You'll receive a response like:
             Status: Unconfirmed => Incomplete
 
 On partial failure
-------------------
+~~~~~~~~~~~~~~~~~~
 
 An email message to new@bugs.launchpad.net can (1) create a bug and (2)
 attempt a command on the bug. It is possible for the create to succeed
@@ -258,7 +205,7 @@ you would be prudent to check the web interface for new bugs before
 resending your bug with your attempted corrections to your commands.
 
 On failure
-----------
+~~~~~~~~~~
 
 If an error occurs while processing your email, Launchpad will send you
 a failure message.
@@ -301,7 +248,7 @@ You can find out `more about the headers <Bugs/Subscriptions#headers>`__
 that Launchpad uses in our article on bug subscriptions.
 
 Commands reference
-==================
+------------------
 
 You must write one email command per line. Remember that you need to
 start the line with a space, otherwise it will be treated as part of
@@ -332,18 +279,18 @@ For example:
 <<Anchor(affects)>>
 
 affects
--------
+~~~~~~~~
 
-\```affects [distribution|package|product]``\`
+``affects [distribution|package|product]``
 
-When filing a bug, \`affects $target\` marks the bug as affecting
-\`$target`. This must be the first command when reporting a new bug.
+When filing a bug, `affects $target` marks the bug as affecting
+`$target`. This must be the first command when reporting a new bug.
 
-You can also, optionally, use \```affects``\` when you're editing a bug.
+You can also, optionally, use ``affects`` when you're editing a bug.
 For example, if you want to set the status of a bug as it affects Zope
-3, you'd use \```affects zope3```.
+3, you'd use ``affects zope3``.
 
-If you leave out \```affects```, Launchpad will make your changes to the
+If you leave out ``affects``, Launchpad will make your changes to the
 bug the following context:
 
 1. the project, distribution or package for which you are a bug
@@ -353,7 +300,7 @@ bug the following context:
 If Launchpad can't determine the context in which to make your changes,
 it will email you with an error message.
 
-The \`affects\` target can take the following forms:
+The `affects` target can take the following forms:
 
 ::
 
@@ -380,9 +327,9 @@ The \`affects\` target can take the following forms:
     affects $distribution/$distro_series/$source_package
 
 summary
--------
+~~~~~~~
 
-\```summary "$summary"``\`
+``summary "$summary"``
 
 Change the one-line summary of the bug. Quotes are required.
 
@@ -391,9 +338,9 @@ Change the one-line summary of the bug. Quotes are required.
     summary "A better summary"
 
 assignee
---------
+~~~~~~~~
 
-\```assignee [name|email|nobody]``\`
+``assignee [name|email|nobody]``
 
 Assign a bug to someone.
 
@@ -412,10 +359,10 @@ Unassign the bug.
     assignee nobody
 
 status
-------
+~~~~~~
 
-\```status
-[new|incomplete|invalid|wontfix|confirmed|triaged|inprogress|fixcommitted|fixreleased]``\`
+``status
+[new|incomplete|invalid|wontfix|confirmed|triaged|inprogress|fixcommitted|fixreleased]``
 
 Change the status of a bug.
 
@@ -424,9 +371,9 @@ Change the status of a bug.
     status fixreleased
 
 importance
-----------
+~~~~~~~~~~
 
-\```importance [wishlist|low|medium|high|critical]``\`
+``importance [wishlist|low|medium|high|critical]``
 
 Change the importance of a bug.
 
@@ -435,9 +382,9 @@ Change the importance of a bug.
     importance high
 
 milestone
----------
+~~~~~~~~~
 
-\```milestone[I $milestone``\`
+``milestone[I $milestone``
 
 Sets or clears the milestone of the bug. The milestone must already
 exist in Launchpad. `More about
@@ -454,10 +401,10 @@ You can clear the milestone by sending a hyphen:
     milestone -
 
 informationtype
----------------
+~~~~~~~~~~~~~~~
 
-\```informationtype
-[public|publicsecurity|privatesecurity|private|proprietary]``\`
+``informationtype
+[public|publicsecurity|privatesecurity|private|proprietary]``
 
 Changes the information type of the bug that affects visibility of the
 bug. Only the people that the project shares confidential information
@@ -468,9 +415,9 @@ with can see "Private", "Private Security", and "Proprietary" bugs.
     informationtype privatesecurity
 
 subscribe
----------
+~~~~~~~~~
 
-\```subscribe [name|email]``\`
+``subscribe [name|email]``
 
 Subscribe yourself or someone else to the bug. If you don't specify a
 name or email, Launchpad will subscribe you, the send of the email, to
@@ -495,16 +442,16 @@ Subscribe Bjorn to the bug.
     subscribe bjornt
 
 unsubscribe
------------
+~~~~~~~~~~~
 
-\``\` unsubscribe [name|email]``\`
+``unsubscribe [name|email]``
 
 The opposite of the subscribe command.
 
 duplicate
----------
+~~~~~~~~~
 
-\```duplicate $bugid``\`
+``duplicate $bugid``
 
 Mark the bug as a duplicate of another bug.
 
@@ -519,14 +466,14 @@ To unmark the bug as a duplicate, specify 'no' as the bug id.
      duplicate no
 
 bug
----
+~~~
 
-\```bug $bugid``\`
+``bug $bugid``
 
-The \`bug\` command is useful if you want to use one email to make
+The `bug` command is useful if you want to use one email to make
 changes to several bugs.
 
-Send such emails to \`edit@bugs.launchpad.net`.
+Send such emails to `edit@bugs.launchpad.net`.
 
 ::
 
@@ -541,9 +488,9 @@ Send such emails to \`edit@bugs.launchpad.net`.
     status confirmed
 
 tag
----
+~~~
 
-\```tag $tag``\`
+``tag $tag``
 
 Assign a tag to a bug. You can specify multiple tags with a single
 command.
@@ -558,16 +505,16 @@ Or:
 
     tag foo bar
 
-Remove a tag by prefixing the tag name with \`-`.
+Remove a tag by prefixing the tag name with ``-``.
 
 ::
 
     tag -foo
 
 done
-----
+~~~~
 
-\```done``\` tells Launchpad to process no further commands.
+``done`` tells Launchpad to process no further commands.
 
 For example:
 
@@ -578,10 +525,6 @@ For example:
     done
     affects everyone using version 1.0.1
 
-The line below \```done``\` looks like an \```affects``\` command but
+The line below ``done`` looks like an ``affects`` command but
 Launchpad will ignore it.
-
-\||<tablestyle="width: 100%;"> ~-\ `< Bug
-subscriptions <Bugs/Subscriptions>`__ -~ \||<style="text-align: right;">
-~- `Translations > <Translations>`__ -~ \|\|
 
