@@ -76,4 +76,5 @@ transparency.
 
    Access web services <launchpad-web>
    Sign web requests <launchpad-web-signing>
+   Webhooks <webhooks>
 
