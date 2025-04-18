@@ -121,22 +121,18 @@ will see an action called ``Configure mailing list``:
    button.
 
 -  Your mailing list application now needs to be approved by the
-   Launchpad
-
-| ``administrators.  We handle new mailing list application requests several``
-| ``times per day, and we will enable your mailing list as soon as possible.``
+   Launchpad administrators.  We handle new mailing list application requests several
+   times per day, and we will enable your mailing list as soon as possible.
 
 -  Once your mailing list is approved, go to your team's overview page
-   and you
+   and you should now see a link in the Summary section saying "Mailing list archive".
+   While your archive will be empty until the first message is posted to your
+   mailing list, once you see this link in the Summary section, you know that
+   your mailing list is live.  You should also notice a new action that you can
+   use to configure your mailing list.  ``
 
-| ``should now see a link in the Summary section saying "Mailing list archive".``
-| ``While your archive will be empty until the first message is posted to your``
-| ``mailing list, once you see this link in the Summary section, you know that``
-| ``your mailing list is live.  You should also notice a new action that you can``
-| ``use to configure your mailing list.  ``
-
-Note that you can also set your Launchpad mailing list to be your team's
-contact address.
+.. note::
+  You can also set your Launchpad mailing list to be your team's contact address.
 
 Subscribing to a mailing list
 -----------------------------
@@ -170,22 +166,16 @@ mailing list subscriptions in one place:
 
 -  Go to your
 
-`:literal:`personal``   ``list``   ``subscriptions``   ``page` <https://launchpad.net/people/+me/+editemails>`__\ ``.``
+:literal:`personal list subscriptions page <https://launchpad.net/people/+me/+editemails>__`.
 
 -  Toward the bottom of the page, you will see a list of all teams that
-   you
-
-``are a member of and that have a mailing list.``
+   you are a member of and that have a mailing list.
 
 -  Use the drop-down menu to select which of your registered email
-   addresses
-
-``should be subscribed to which mailing list, and then click ``\ *:literal:`Update``   ``Subscriptions`*\ ``.``
+   addresses should be subscribed to which mailing list, and then click :literal:`Update Subscriptions`.
 
 -  Within a minute or two you should be a member of the mailing list and
-   you
-
-``should be able to post to the list.``
+   you should be able to post to the list.
 
 Using your mailing list
 -----------------------
@@ -210,9 +200,9 @@ Unsubscribing
 
 Unsubscribing is easy. Just visit your `Launchpad mailing list
 subscriptions <https://launchpad.net/people/+me/+editemails>`__ page,
-scroll down to the list of teams you're subscribed to, and chose *Don't
-Subscribe* for any list you want to get off of. Click *Update
-Subscriptions*.
+scroll down to the list of teams you're subscribed to, and chose ``Don't
+Subscribe`` for any list you want to get off of. Click ``Update
+Subscriptions``.
 
 Posting to lists without subscribing
 ------------------------------------
@@ -236,4 +226,4 @@ without first subscribing.
 So long as the posts are from registered Launchpad users, Launchpad
 holds the posts for you - as a team administrator - to moderate. When
 there are new posts to moderate, you can see them by following the link
-in the \```Actions``\` menu on your team's overview page.
+in the ``Actions`` menu on your team's overview page.
