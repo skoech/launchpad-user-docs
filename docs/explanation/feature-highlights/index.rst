@@ -15,4 +15,5 @@ Explanation
     Milestones <milestones>
     Page tour <page-tour>
     Personal Package Archives <personal-package-archives>
+    Product series <product-series>
     The bug tracker <the-bug-tracker>
