@@ -11,6 +11,7 @@ Reference
    Consumer hosting <consumer-hosting>
    Glossary <glossary>
    Launchpad and community <launchpad-and-community/index>
+   launchpadlib API compatibility <launchpadlib-api-compatibility>
    Live-file-systems <live-file-systems>
    Loggerhead <loggerhead>
    Packaging <packaging/index>
