@@ -25,10 +25,6 @@ project from CVS or SVN. A good example is the Drupal project. Launchpad
 imports Drupal's trunk as `its "main"
 series <https://launchpad.net/drupal/main>`__ in Launchpad.
 
-\||<tablestyle="font-size: 0.8em; width:30%; background:#F1F1ED; margin:
-1em 1em 0 0;" style="padding:0.5em;">|\| \||<style="text-align:
-center;">\ **Drupal's main series - an import**\ \|\|
-
 As you can see, there's a Bazaar branch of Drupal's code. Launchpad
 updates that branch regularly by importing the latest from Drupal's
 trunk Subversion repository. It works just like any other branch in
@@ -57,7 +53,8 @@ limitations in CVS or SVN by altering the repositories
 behind-the-scenes. This is especially true of CVS, which does not
 support renames, so people have tended to do them manually.
 
-== Making your request =
+Making your request
+~~~~~~~~~~~~~~~~~~~
 
 So, a good import is part voodoo, part science, part luck. An import
 will not lose data - we can verify that the result of a checkout of the
