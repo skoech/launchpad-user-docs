@@ -8,7 +8,11 @@ Translating with Launchpad
 
     Using Rosetta <rosetta>
     Translating your project <translating-your-project>
+    Translating your software <translate-your-software>
     Translation groups <translation-groups>
+    Translating partial PO files <partial-exports>
+    Preparing to translate <prepare-to-translate>
+  
 Using Launchpad, you can translate free software projects and distribution packages into your own language.
 All you need are `your Launchpad account <https://help.launchpad.net/YourAccount>`_ and a web browser.
 There's no special software and in most cases you don't need to join a team to get started.

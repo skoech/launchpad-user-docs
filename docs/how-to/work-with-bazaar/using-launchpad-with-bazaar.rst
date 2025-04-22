@@ -63,23 +63,23 @@ Any user who wants to work on the project has two different approaches:
 Checkouts: Usually recommended for quick changes, it commits straight
 into Launchpad
 
-.. terinal::
+.. terminal::
     bzr checkout lp:~launchpad_user_or_team/project_name/branch
 
 Branches: For bigger changes, it commits locally and you push the
 changes to Launchpad when ready
 
-.. terinal::
+.. terminal::
     bzr branch lp:~launchpad_user_or_team/project_name/branch
 
 Whenever making changes to the files, both approaches need a:
 
-.. terinal::
+.. terminal::
     bzr commit -m "a comment on what has been changed"
 
 But when using branches, you also need send your changes:
 
-.. terinal::
+.. terminal::
     bzr push lp:~launchpad_user_or_team/project_name/branch
 
 More information
