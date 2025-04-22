@@ -1,5 +1,5 @@
-Prepare to translate
-=====================
+Preparing to translate
+======================
 
 You can use Launchpad to help translate free software, both directly
 with upstream projects, (such as

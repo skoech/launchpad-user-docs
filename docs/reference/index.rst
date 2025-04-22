@@ -23,5 +23,6 @@ Reference
    Table of applications using the API <api-uses>
    Teams <teams/index>
    Translations <translations/index>
+   Troubleshooting <troubleshooting/email-address-already-in-use>
    Question life cycle <question-life-cycle>
    User preferences <settings-and-preferences>

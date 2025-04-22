@@ -1,7 +1,7 @@
-Translate your software
-=======================
+Translating your software
+=========================
 
-This guide contains specific information about translating software into
+This section contains specific information about translating software into
 your language. It contains details about what strings should be
 translated and what not, what are plural forms and other things you
 should be aware while translating software using Launchpad Translations
@@ -386,7 +386,7 @@ Suggestions for sections included in your guidelines
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Below are some ideas, hints, for some information that could be included
-into the guildelines for your language:
+into the guidelines for your language:
 
 -  A section describing the current focus for translations. What
    packages should be translated, their priority, due date... etc

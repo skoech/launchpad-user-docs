@@ -1,5 +1,5 @@
-Bug subscription
-================
+Subscribing and unsubscribing to bugs
+=====================================
 
 Launchpad uses notification emails and Atom feeds to help you stay on
 top of the bugs that interest you.
@@ -21,6 +21,14 @@ on the bug report page. You can also subscribe another individual or a
 team to a bug. However, you should only do this if you're certain the
 person or team members are happy for you to do so.
 
+Subscribe to an entire milestone, project, package or distribution
+------------------------------------------------------------------
+
+To receive notifications about a milestone in a project, a distribution
+(e.g. Ubuntu) or a package or project, click ``Subscribe to
+bugmail`` on the milestone, project, package or distribution bugs
+overview page.
+
 What you'll receive
 ~~~~~~~~~~~~~~~~~~~
 
@@ -33,12 +41,12 @@ Launchpad sends bug notifications when:
 -  a bug is targeted to a milestone
 -  a bug is marked as affecting a new series, package or project.
 
+Filter your bug mail
+~~~~~~~~~~~~~~~~~~~~
+
 You can filter bug mail based on both the subject and headers. A prefix
 of ``[NEW]`` in the subject lets you distinguish emails about newly
 reported bugs from updates about previous bugs.
-
-Bug mail headers
-~~~~~~~~~~~~~~~~
 
 Launchpad uses email headers to help you automatically filter bug mail.
 
@@ -60,79 +68,24 @@ Launchpad uses email headers to help you automatically filter bug mail.
 -  **X-Launchpad-Message-Rationale:** See `Bug mail
    rationale <Bugs/Subscriptions#rationale>`__ section below.
 
-X-Launchpad-Bug
-^^^^^^^^^^^^^^^
+Unsubscribe from bug notifications
+----------------------------------
 
-The ``X-Launchpad-Bug`` header collates most of the other
-information about a bug's status, importance, etc. It gives you slightly
-different information, depending on whether you're dealing with a
-distribution package or a project:
+You can unsubscribe from bug notifications at any time.
 
-Project
-........
+-  **Individual bugs**: visit the bug report and click
+   ``Unsubscribe``.
+-  **All bugs in a particular context**: visit the context's overview
+   page - such as a project's overview page - and select ``Subscribe
+   to bug mail``.
 
--  ``product``
--  ``status``
--  ``importance``
--  ``assignee``
--  **For example:** ``X-Launchpad-Bug: product=terminator;
-   status=Confirmed; importance=Low; assignee=None;``
+.. note::
+    If you receive bug mail because you're in a team that is a
+    reporter, commenter or assignee, you must leave that team to stop
+    receiving the notifications.
 
-Package
-.......
-
--  ``distribution``
--  ``sourcepackage```
--  ``component``
--  ``status``
--  ``importance``
--  ``assignee``
--  **For example:** ``X-Launchpad-Bug: distribution=ubuntu;
-   sourcepackage=exaile; component=universe; status=Confirmed;
-   importance=Medium; assignee=None;``
-
-Bug mail rationale
-~~~~~~~~~~~~~~~~~~
-
-The ``X-Launchpad-Message-Rationale`` header tells you why you've
-received the notification.
-
-You can be either:
-
--  ``Assignee``
--  ``Subscriber``
--  ``Registrant``
-
-For example: ``X-Launchpad-Message-Rationale: Assignee``
-
-An ``@`` symbol shows that you're related to the bug through
-membership of a team:
-
-::
-
-       X-Launchpad-Message-Rationale: Assignee @ubuntu-kernel-bugs
-       X-Launchpad-Message-Rationale: Subscriber @ubuntu-core-dev
-
-If you're the project/package owner, the product/package name is show in
-parentheses:
-
-::
-
-       X-Launchpad-Message-Rationale: Registrant (kiwi)
-
-If the notification is about a duplicate bug, the rationale shows you
-which bug this report duplicates:
-
-::
-
-       X-Launchpad-Message-Rationale: Assignee via Bug 1332
-
-This makes it easy to filter out bug mail about duplicate bugs. For
-example: let's say this bug notification is for bug 2129. This header
-means you are the assignee of bug 1332, of which 2129 is a duplicate.
-
-Atom feeds
-----------
+Subscribe to bug feeds
+----------------------
 
 You can subscribe to a feed of the bugs that affect a person, team,
 project or distribution. You can also subscribe to individual bugs.
@@ -163,9 +116,9 @@ Replace ``/~/`` accordingly.
 
 For example: http://feeds.launchpad.net/~bzr/latest-bugs.atom
 
-Further information
--------------------
+Next step
+---------
 
 As well as using email to send updates about the status of bugs,
-Launchpad gives you a full `email interface to the bug
-tracker <Bugs/EmailInterface>`__.
+Launchpad gives you a full :doc:`email interface to the bug
+tracker <../../explanation/feature-highlights/email-interface>`.

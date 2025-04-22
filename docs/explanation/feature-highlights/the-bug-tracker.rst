@@ -105,9 +105,52 @@ become comments for the filed bug.
 Parts with a Content-Disposition of ``attachment`` will have have their
 contents added as attachments to the filed bug.
 
-1. 
+Sample File
+~~~~~~~~~~~
 
-   1. page was renamed from MaloneHighlights
+::
+
+   MIME-Version: 2.0 
+   Content-type: multipart/mixed; boundary=boundary
+   Subject: Initial bug summary
+   Tags: foo bar
+   Private: yes
+   Subscribers: launchpad-user user@example.com
+
+   --boundary
+   Content-disposition: inline
+   Content-type: text/plain; charset=utf-8
+
+   This should be added to the description.
+
+   --boundary
+   Content-disposition: inline
+   Content-type: text/plain; charset=utf-8
+
+   This should be added as a comment.
+
+   --boundary
+   Content-disposition: attachment; filename='attachment1'
+   Content-type: text/plain; charset=utf-8
+
+   This is an attachment.
+
+   --boundary
+   Content-disposition: inline
+   Content-type: text/plain; charset=utf-8
+
+   This should be added as another comment.
+
+   --boundary
+   Content-disposition: attachment; filename='attachment2'
+   Content-description: Attachment description.
+   Content-Transfer-Encoding: base64
+   Content-Type: application/x-gzip
+
+   H4sICH5op0UAA3Rlc3QudHh0AAvJyCxWAKLEvPySjNQihcSSksTkjNzUvBIdhfLMkgyFRIWU1OLk
+   osyCksz8PD0uAPiw9nkwAAAA
+
+   --boundary--
 
 Launchpad Bug Tracking Highlights
 ---------------------------------
@@ -145,15 +188,35 @@ to make it easy for those disparate groups to collaborate.
 
 An example will help to make this clear.
 
-``John is working on a new Plone product, Weathervane, which is supposed to make it easy to integrate Google Maps and weather data with Plone sites so that you can easily see whether your users are in general having a sunny day.``
+* John is working on a new Plone product, Weathervane, which is supposed to
+  make it easy to integrate Google Maps and weather data with Plone sites so
+  that you can easily see whether your users are in general having a sunny day.
 
-``He finds that a part of Plone is not working as expected when he uses a particular pattern of arguments to a Plone method, so he files a bug on Plone in Launchpad. The Plone community realise that they can reproduce the issue in Zope2, so they link the same bug to Zope, in Launchpad. And the Zope community then track it down as a bug in Python itself, so they record the bug as also occurring in the Python product in Launchpad.``
+* He finds that a part of Plone is not working as expected when he uses a
+  particular pattern of arguments to a Plone method, so he files a bug on
+  Plone in Launchpad. The Plone community realise that they can reproduce
+  the issue in Zope2, so they link the same bug to Zope, in Launchpad.
+  And the Zope community then track it down as a bug in Python itself,
+  so they record the bug as also occurring in the Python product in Launchpad.
 
-``The same bug is now open in three places: Plone, Zope and Python. This means that three different projects are tracking the same bug. Anybody looking at the list of bugs in Plone, or Zope, or Python, will see this bug. And anybody from any of those projects who has further information can comment, add attachments etc, without needing any special new account. A comment made by any person is sent to the subscribers and assignees on the bug from ``\ *``all``*\ `` of those projects. Essentially, a inter-project team has been formed to fix the bug.``
+* The same bug is now open in three places: Plone, Zope and Python.
+  This means that three different projects are tracking the same bug.
+  Anybody looking at the list of bugs in Plone, or Zope, or Python,
+  will see this bug. And anybody from any of those projects who has
+  further information can comment, add attachments etc, without needing
+  any special new account. A comment made by any person is sent to the
+  subscribers and assignees on the bug from  *all* of those projects.
+  Essentially, a inter-project team has been formed to fix the bug.
 
-``The moment this bug is marked fixed in ``\ *``any``*\ `` of these projects, developers from all of them will be notified. So awareness of a bug fix can propagate more quickly between projects - for example, from Ubuntu to Plone, or to Python.``
+* The moment this bug is marked fixed in *any* of these projects, developers
+  from all of them will be notified. So awareness of a bug fix can propagate
+  more quickly between projects - for example, from Ubuntu to Plone, or to Python.
 
-``The idea is ensure that eyeballs that are all interested in a particular issue can be aggregated and can work together without having to go to any great trouble to do so. Each of these different projects - Ubuntu, Plone, Zope and Python may have their own sense of the priority of a particular issue, but if any of them fix it, or start work on a fix for it, the others can at least be aware of that progress.``
+* The idea is ensure that eyeballs that are all interested in a particular issue
+  can be aggregated and can work together without having to go to any great trouble
+  to do so. Each of these different projects - Ubuntu, Plone, Zope and Python may have
+  their own sense of the priority of a particular issue, but if any of them fix it, or
+  start work on a fix for it, the others can at least be aware of that progress.
 
 Email Commands and Comments
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~

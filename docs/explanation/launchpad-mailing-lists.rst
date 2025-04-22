@@ -20,65 +20,65 @@ Simplified subscription management
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Instead of maintaining a separate password for every list your users participate
-  in, they can use their singleLaunchpad login to update their email address and
-  subscription preferences for any list.
+in, they can use their singleLaunchpad login to update their email address and
+subscription preferences for any list.
 
 Post from any email address
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Most email lists require you to use a specific email address when you post to that
-  list. Launchpad allows users to post messages to a mailing list from any email
-  address validated with Launchpad. Users can still specify exactly which validated
-  address will receive list messages.
+list. Launchpad allows users to post messages to a mailing list from any email
+address validated with Launchpad. Users can still specify exactly which validated
+address will receive list messages.
 
 Coordinated absence management
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When you do not wish to receive any email from ANY list for a period of time, you can tell
-  Launchpad to cease delivery of mail from all lists in which you
-  participate, for the period of time that you will be absent. Come
-  home to a clean inbox!
+Launchpad to cease delivery of mail from all lists in which you
+participate, for the period of time that you will be absent. Come
+home to a clean inbox!
 
 Simplified administration
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-People who administer multiple lists multiple projects will find that Launchpad greatly improves their ability to
-  control list subscriptions. Launchpad's Mailman implementation represents
-  best-practice with regard to mailing list set up, designed by folks who run
-  hundreds of lists. Use one Launchpad account to administer as many lists as
-  you need, across as many projects as you want.
+People who administer multiple lists multiple projects will find that Launchpad greatly
+improves their ability to control list subscriptions. Launchpad's Mailman
+implementation represents   best-practice with regard to mailing list set up, designed
+by folks who run hundreds of lists. Use one Launchpad account to administer as many lists as
+you need, across as many projects as you want.
 
 Automatic archiving and distribution
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Launchpad lists are automatically archived for history, in a format that is easily cataloged by
-  search engines. Copies are also archived on :literal:`The Mail Archive <http://www.mail-archive.com/>`__,
-  a popular long-term list archive site.
+search engines. Copies are also archived on `The Mail Archive <http://www.mail-archive.com/>`__,
+a popular long-term list archive site.
 
 Sophisticated membership management
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Teams already support many sophisticated ways of controlling membership - they can be tightly
-  controlled, entirely open, moderated, or invitation-only. Since teams govern
-  participation in Launchpad-hosted mailing lists, you can set up a list with
-  whichever governance model suits you best.``
+controlled, entirely open, moderated, or invitation-only. Since teams govern
+participation in Launchpad-hosted mailing lists, you can set up a list with
+whichever governance model suits you best.
 
 Natural fit to Launchpad teams
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Many projects use Launchpad teams to group their users and developers into convenient teams.
-  Those teams can be given different permissions in Launchpad, and now can also have mailing
-  lists associated with them.
+Those teams can be given different permissions in Launchpad, and now can also have mailing
+lists associated with them.
 
 Reduced spam and enhanced participation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 List postings from email addresses not registered and validated to a Launchpad user are immediately
-  discarded, reducing the occurance of list spam.  Messages posted by validated
-  Launchpad users who are not subscribed to your mailing list are held for
-  your approval.  Once a person has proven themselves to be in good standing
-  e.g. by posting several on-topic messages to lists they are not members of,
-  this approval step is relaxed across all of Launchpad.
+discarded, reducing the occurance of list spam.  Messages posted by validated
+Launchpad users who are not subscribed to your mailing list are held for
+your approval.  Once a person has proven themselves to be in good standing
+e.g. by posting several on-topic messages to lists they are not members of,
+this approval step is relaxed across all of Launchpad.
 
 Using Launchpad hosted lists
 ----------------------------
@@ -99,12 +99,12 @@ email address, whatever that happens to be at the time.
 .. note::
     
     All Launchpad mailing list messages are publicly archived, and **the
-   archives are open to everyone**, not just Launchpad or team members.
-   If you have any issues with information available in the archives,
-   you should contact `the Launchpad
-   administrators <http://help.launchpad.net/#head-9562b4c8ee3bbaca8f0d0719f973269f13539ced>`__,
-   however our general policy is **never to remove archive messages or
-   information contained therein.**
+    archives are open to everyone**, not just Launchpad or team members.
+    If you have any issues with information available in the archives,
+    you should contact `the Launchpad
+    administrators <http://help.launchpad.net/#head-9562b4c8ee3bbaca8f0d0719f973269f13539ced>`__,
+    however our general policy is **never to remove archive messages or
+    information contained therein.**
 
 Subscribed team members may post their messages to
 ``myteam@lists.launchpad.net`` and the archives for the team mailing

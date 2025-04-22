@@ -43,3 +43,8 @@ Next step
 Launchpad trusts that you are who you claim to be. Later, such as when you're using the bug tracker's email interface, you'll need to use an electronic signature to prove your identity.
 
 Setting up such a signature is easy and that's what we're doing next: `uploading an OpenPGP key <https://help.launchpad.net/YourAccount/ImportingYourPGPKey>`_.
+
+Read more about troubleshooting account creation errors:
+
+* `Your email address is already in use <Creating a new account/YourAccount/NewAccount/Your email address
+  is already in use>`__
