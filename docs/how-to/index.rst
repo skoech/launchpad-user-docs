@@ -14,11 +14,7 @@ How-to guides
    Help the community <community-help>
    Manage your account <account-management/index>
    Work with launchpadlib <launchpadlib/index>
-<<<<<<< Updated upstream
-   Launchpad API <launchpad-api/index>
-   Translate your software <software-translations/index>
-=======
    Projects <projects/register-your-project>
->>>>>>> Stashed changes
    Work with Bazaar <work-with-bazaar/using-launchpad-with-bazaar>
    Work with bugs <work-with-bugs/display-bug-reporting-guidelines>
+   Work with code hosted on Launchpad <work-with-code-hosted-on-launchpad/host-your-code-on-launchpad>

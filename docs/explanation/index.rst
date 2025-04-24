@@ -14,6 +14,7 @@ Explanation
     Feature highlights <feature-highlights/index>
     Launchpad API <launchpad-api/launchpadlib>
     Launchpad mailing lists <launchpad-mailing-lists>
+    Rationale headers in Launchpad email <message-rationale-headers>
     OOPS <oops>
     Packaging <packaging/packaging.rst>
     Privacy, confidentiality and disclosure <privacy-confidentiality-and-disclosure>

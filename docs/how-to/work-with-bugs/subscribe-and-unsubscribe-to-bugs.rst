@@ -1,5 +1,5 @@
-Subscribing and unsubscribing to bugs
-=====================================
+Subscribe and unsubscribe to bugs
+=================================
 
 Launchpad uses notification emails and Atom feeds to help you stay on
 top of the bugs that interest you.
