@@ -1,4 +1,4 @@
-Create and Publish brackets
+Create and Publish branches
 ===========================
 
 For this section of the feature highlights guide, you might like to
